@@ -21,7 +21,6 @@ public class Emprestimo {
 
 	private LocalDate dataDevolucao;
 
-	// Getters and Setters
 	public Long getId() {
 		return id;
 	}
