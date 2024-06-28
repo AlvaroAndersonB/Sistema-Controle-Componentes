@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Empréstimo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro de Empréstimo</h1>
+        <form id="emprestimoForm">
+            <label for="nomePessoa">Nome da Pessoa:</label>
+            <input type="text" id="nomePessoa" name="nomePessoa" required>
+            
+            <label for="nomeObjeto">Nome do Objeto:</label>
+            <input type="text" id="nomeObjeto" name="nomeObjeto" required>
+            
+            <label for="dataEmprestimo">Data de Empréstimo:</label>
+            <input type="date" id="dataEmprestimo" name="dataEmprestimo" required>
+            
+            <label for="dataDevolucao">Data de Devolução:</label>
+            <input type="date" id="dataDevolucao" name="dataDevolucao" required>
+            
+            <button type="submit">Cadastrar</button>
+        </form>
+        <p id="responseMessage"></p>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
